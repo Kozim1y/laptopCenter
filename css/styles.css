@@ -727,6 +727,62 @@ header {
   color: #000000;
 }
 
+/* Why us section start */
+
+/* Contact section start */
+.contact-box {
+  padding: 50px 0;
+
+}
+
+.contact__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: -0.05em;
+  color: #000000;
+  padding-left: 50px;
+  position: relative;
+}
+
+.contact__title::before {
+  content: "";
+  background-image: url("../images/contact-title-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.form-maps-box {
+  height: 500px;
+  display: flex;
+  filter: drop-shadow(4px 10px 25px rgba(0, 0, 0, 0.2));
+  border-radius: 15px;
+  position: relative;
+}
+
+.contact-form-box {
+  width: 40%;
+  height: 100%;
+  background: #FFFFFF;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 1;
+}
+
+.gmap_iframe {
+  width: 100%;
+  position: relative;
+  right: 0;
+  z-index: 0;
+  border: none;
+}
+
 /* === Media start ===*/
 /* Responsive 1315px */
 @media only screen and (max-width:1315px) {
@@ -1029,7 +1085,8 @@ header {
   .discounts__title,
   .categories__title,
   .about__title,
-  .why-us__title {
+  .why-us__title,
+  .contact__title {
     font-size: 22px;
     line-height: 50px;
     padding-left: 35px;
@@ -1039,7 +1096,8 @@ header {
   .discounts__title::before,
   .categories__title::before,
   .about__title::before,
-  .why-us__title::before {
+  .why-us__title::before,
+  .contact__title::before {
     width: 25px;
     height: 25px;
     top: 12px;
@@ -1180,7 +1238,7 @@ header {
 
   .about-cards-box {
     margin-top: 0px;
-}
+  }
 
   .about-comments-card__title {
     font-size: 22px;
