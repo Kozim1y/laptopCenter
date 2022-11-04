@@ -652,6 +652,81 @@ header {
   left: 30%;
 }
 
+/* About section end */
+
+/* Why us section start */
+.why-us-box {
+  padding: 50px 0;
+  background-color: #FBFAFA;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+.why-us__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: -0.05em;
+  color: #000000;
+  padding-left: 50px;
+  position: relative;
+}
+
+.why-us__title::before {
+  content: "";
+  background-image: url("../images/why-us-title.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.why-us-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.why-us-list__card {
+  width: 31%;
+  height: 300px;
+  padding: 30px 50px;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.why-us-card__img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.why-us-card__title {
+  padding: 0 20px;
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #26211E;
+}
+
+.why-us-card__info {
+  padding: 0 40px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
 /* === Media start ===*/
 /* Responsive 1315px */
 @media only screen and (max-width:1315px) {
@@ -699,6 +774,11 @@ header {
     top: 10px;
     left: 15%;
     z-index: -1;
+  }
+
+  .why-us-list__card {
+    width: 45%;
+    height: 300px;
   }
 }
 
@@ -765,10 +845,26 @@ header {
     font-size: 16px;
     line-height: 20px;
   }
+
+  .why-us-card__title {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 22px;
+  }
+
+  .why-us-card__info {
+    font-size: 16px;
+    padding: 0;
+    line-height: 20px;
+  }
 }
 
 /* Responsive 800px */
 @media only screen and (max-width:800px) {
+  .about-box {
+    padding: 40px 0;
+  }
+
   .about-cards {
     display: none;
   }
@@ -857,6 +953,11 @@ header {
     width: 100%;
   }
 
+  .about-comments-card__btn {
+    margin: 40px auto 0 auto;
+    display: block;
+  }
+
   .about-image {
     width: 100%;
     height: 50%;
@@ -927,7 +1028,8 @@ header {
   .best-seller__title,
   .discounts__title,
   .categories__title,
-  .about__title {
+  .about__title,
+  .why-us__title {
     font-size: 22px;
     line-height: 50px;
     padding-left: 35px;
@@ -936,7 +1038,8 @@ header {
   .best-seller__title::before,
   .discounts__title::before,
   .categories__title::before,
-  .about__title::before {
+  .about__title::before,
+  .why-us__title::before {
     width: 25px;
     height: 25px;
     top: 12px;
@@ -962,6 +1065,26 @@ header {
 
   .discounts-box {
     padding: 20px 0;
+  }
+
+  .about-comments-card__btn {
+    padding: 8px 50px;
+    font-size: 16px;
+  }
+
+  .why-us-list {
+    justify-content: space-around;
+  }
+
+  .why-us-list__card {
+    padding: 20px 40px;
+    width: 80%;
+    height: 240px;
+  }
+
+  .why-us-card__img {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -1051,6 +1174,14 @@ header {
     line-height: 16px;
   }
 
+  .about-box {
+    padding: 10px 0;
+  }
+
+  .about-cards-box {
+    margin-top: 0px;
+}
+
   .about-comments-card__title {
     font-size: 22px;
   }
@@ -1059,6 +1190,15 @@ header {
     font-size: 14px;
     line-height: 15px;
     margin-right: 20px;
+  }
+
+  .about-comments-card__info {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .why-us-box {
+    padding: 30px 0;
   }
 }
 
@@ -1083,4 +1223,29 @@ header {
   .discounts-list__item {
     width: 90%;
   }
+
+  .about-comments-list {
+    margin-top: 0;
+  }
+
+  .about-comments-card__title {
+    width: 30%;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .why-us-list__card {
+    width: 100%;
+  }
+
+  .why-us-card__title {
+    font-size: 20px;
+  }
+
+  .why-us-card__info {
+    font-size: 16px;
+  }
+
 }
