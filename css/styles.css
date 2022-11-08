@@ -361,7 +361,7 @@ header {
 
 .best-seller-list__item:hover,
 .discounts-list__item:hover {
-  box-shadow: 0px 10px 10px #0000005f;
+  box-shadow: 0px 10px 10px #0000002b;
   background-color: #eae9e9;
   transform: scale(1.01);
 }
@@ -811,11 +811,15 @@ header {
   margin: 20px 10px;
   padding: 2px 0;
   border: none;
-  border-bottom: 2px solid #28314B;
+  border-bottom: 2px solid #28314baa;
   outline: none;
   font-weight: 500;
   font-size: 20px;
   color: #000000;
+}
+
+.contact-form input:focus {
+  border-bottom: 2px solid #000000;
 }
 
 .contact-form input:nth-child(5) {
@@ -1299,17 +1303,6 @@ footer {
     width: 25px;
     height: 25px;
     top: 12px;
-  }
-
-  .best-seller-list__title,
-  .discounts-list__title {
-    font-size: 14px;
-  }
-
-  .best-seller-list__price,
-  .discounts-list__price {
-    padding: 10px;
-    font-size: 14px;
   }
 
   .best-seller__btn,
