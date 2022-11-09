@@ -664,6 +664,7 @@ header {
   position: absolute;
   top: 10px;
   left: 30%;
+  /* object-fit: contain; */
 }
 
 /* About section end */
@@ -1565,5 +1566,4 @@ footer {
   .why-us-card__info {
     font-size: 16px;
   }
-
 }
