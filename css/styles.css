@@ -102,6 +102,7 @@ header {
 .burger {
   display: none;
   margin-top: 4px;
+  cursor: pointer;
 }
 
 .burger span {

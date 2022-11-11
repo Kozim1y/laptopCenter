@@ -17,6 +17,7 @@ body {
   position: absolute;
   top: 20px;
   display: none;
+  cursor: pointer;
 }
 
 .close-btn span {
