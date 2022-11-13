@@ -1,0 +1,38 @@
+.about-box {
+  padding: 40px 0;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-galery {
+  width: 28%;
+}
+.about-galery__card {
+  width: 100%;
+  height: 500px;
+}
+
+.about-galery-main__img img{
+  width: 100%;
+  height: 400px;
+}
+.about-galery__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+}
+.about-galery__item {
+  width: 80px;
+  margin: 10px;
+}
+
+.about-galery__item a img{
+  width: 100%;
+}
+.about-content {
+  width: 70%;
+} 
