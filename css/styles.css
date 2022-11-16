@@ -1046,18 +1046,6 @@ footer {
     margin: 30px 0;
   }
 
-  .best-seller-list__title,
-  .discounts-list__title {
-    font-size: 16px;
-    line-height: 18px;
-  }
-
-  .best-seller-list__price,
-  .discounts-list__price {
-    font-size: 16px;
-    line-height: 20px;
-  }
-
   .contact-form-box {
     width: 60%;
   }
@@ -1078,7 +1066,7 @@ footer {
 
   .best-seller-list__item,
   .discounts-list__item {
-    width: 35%;
+    width: 45%;
   }
 
   .categories-list {
@@ -1454,17 +1442,6 @@ footer {
     background-image: url("../images/categories4.png");
   }
 
-  .categories-list__title {
-    padding: 0 10px 0 0;
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .categories-list__link {
-    font-size: 14px;
-    line-height: 16px;
-  }
-
   .about-box {
     padding: 10px 0;
   }
@@ -1493,9 +1470,9 @@ footer {
   }
 
   footer {
-    padding: 20px 0;  
+    padding: 20px 0;
   }
-  
+
   .footer-inner div {
     width: 100%;
     padding: 0 10px;
@@ -1506,20 +1483,20 @@ footer {
   }
 
   .footer-products__title,
-.footer-menu__title,
-.footer-shop__title,
-.footer-contact__title {
-  font-size: 20px;
-  line-height: 26px;
-}
+  .footer-menu__title,
+  .footer-shop__title,
+  .footer-contact__title {
+    font-size: 20px;
+    line-height: 26px;
+  }
 
-.footer-menu__list-link,
-.footer-products__list-link,
-.footer-shop__list-link,
-.footer-contact__list-link {
-  font-size: 16px;
-  line-height: 22px;
-}
+  .footer-menu__list-link,
+  .footer-products__list-link,
+  .footer-shop__list-link,
+  .footer-contact__list-link {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 /* Responsive 400px */

@@ -223,7 +223,14 @@
   color: #000000;
 }
 
+.about-product__info {
+  margin: 20px 0 50px 0;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+}
 
+/* Media max-width 800px */
 @media only screen and (max-width:800px) {
   .about-galery {
     width: 45%;
@@ -294,6 +301,7 @@
   }
 }
 
+/* Media max-width 600px */
 @media only screen and (max-width:600px) {
   .about {
     flex-wrap: wrap;
@@ -323,4 +331,19 @@
     margin: 10px;
     margin-left: 0;
   }
+}
+
+/* Media max-width 400px */
+@media only screen and (max-width:400px) {
+  .about-product__title,
+.similar-product__title {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.about-product__info {
+  margin: 15px 0 40px 0;
+  font-size: 20px;
+  line-height: 30px;
+}
 }
